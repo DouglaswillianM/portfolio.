@@ -1,0 +1,84 @@
+/* Reset CSS */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Remove list styles */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Reset font styles */
+html {
+    font-family: sans-serif;
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Remove default padding */
+body {
+    padding: 0;
+}
+
+/* Remove default button styles */
+button {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+
+/* Remove default input styles */
+input,
+button,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* Remove default border */
+button,
+input {
+    border: none;
+}
+
+/* Reset focus styles */
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+/* Reset scrollbar styles */
+body::-webkit-scrollbar {
+    width: 8px;
+}
+body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
